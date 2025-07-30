@@ -1,18 +1,18 @@
 # Podsumowanie moich prac nad zadaniem:
 
 ## poprawki
-✅ Poprawa docker-compose.yaml - dodałem port na którym kontener wystawia aplikcję - bez tego aplikacja nie byłaby dostępna spoza kontenera
-✅ Podpiąłem skrypt contact.php do submit formularza - dzięki temu wysyła się poprawnie formularz.
-✅ Security:
-    - pobieram tylko określone pola
-    - usuwam niebezpieczne znaki
-    - sprawdzam długość pól
-    - sprawdzam poprawność przesłanych danych także na serwerze - nie tylko w formularzu
-✅ Poprawiłem responsywność
-    - dostosowałem skalowanie interfejsu w sekcji head
-    - dostosowałem wielkość czcionek
-    - dostosowałem wielkość przycisku nadając mu minimalną szerokość
-    - poprawiłem specyficzność styli mobile - tak by nadpisywały te globalne
+    ✅ Poprawa docker-compose.yaml - dodałem port na którym kontener wystawia aplikcję - bez tego aplikacja nie byłaby dostępna spoza kontenera
+    ✅ Podpiąłem skrypt contact.php do submit formularza - dzięki temu wysyła się poprawnie formularz.
+    ✅ Security:
+        - pobieram tylko określone pola
+        - usuwam niebezpieczne znaki
+        - sprawdzam długość pól
+        - sprawdzam poprawność przesłanych danych także na serwerze - nie tylko w formularzu
+    ✅ Poprawiłem responsywność
+        - dostosowałem skalowanie interfejsu w sekcji head
+        - dostosowałem wielkość czcionek
+        - dostosowałem wielkość przycisku nadając mu minimalną szerokość
+        - poprawiłem specyficzność styli mobile - tak by nadpisywały te globalne
 
 ## ⚠️ Znalezione kolejne naprawione problemy 
     ✅ A11y & SEO: Strona nie ma tytułu (title) 
