@@ -7,3 +7,5 @@ services:
     volumes:
       - ./:/var/www/html
     restart: always
+    ports:
+      - "8080:80"
